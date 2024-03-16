@@ -1,17 +1,16 @@
-# miscellaneous
-
-Run Instructions:
+## Run Instructions
 - python3 -m pipenv shell
 - phthon3 -m pip install pipenv
 - python3 -m pipenv install
 - python3 gguf.py
 - python3 non_gguf.py
 
-The following comparison was done on a machine with 64GB memory and 8 cores.
 
-Simple prompt instructions to write a python code was provided (see gguf.py and non_gguf.py)
+## Comparison
+- The following comparison was done on a machine with 64GB memory and 8 cores. 
+- Simple prompt instructions to write a python code was provided (see gguf.py and non_gguf.py)
 
-GGUF vs Non-GGUF Comparison:
+#### Results of the GGUF vs Non-GGUF Comparison:
 - CodeLlama-7B-Instruct:
   - Without gguf: >170s 
   - With gguf 10-100 seconds
